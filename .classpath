@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/lwjgl-glfw.jar" sourcepath="sources/lwjgl-glfw-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/App/javadocs/lwjgl-glfw-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/lwjgl-jawt.jar" sourcepath="sources/lwjgl-jawt-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/App/javadocs/lwjgl-jawt-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/lwjgl-opengl.jar" sourcepath="sources/lwjgl-opengl-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/App/javadocs/lwjgl-opengl-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/lwjgl.jar" sourcepath="sources/lwjgl-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/App/javadocs/lwjgl-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="natives/lwjgl-glfw-natives-windows.jar"/>
+	<classpathentry kind="lib" path="natives/lwjgl-natives-windows.jar"/>
+	<classpathentry kind="lib" path="natives/lwjgl-opengl-natives-windows.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-stb.jar" sourcepath="sources/lwjgl-stb-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/App/javadocs/lwjgl-stb-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="natives/lwjgl-stb-natives-windows.jar"/>
+	<classpathentry kind="lib" path="lib/aparapi-2.0.0.jar" sourcepath="sources/aparapi-2.0.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/App/javadocs/aparapi-2.0.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/aparapi-jni-1.4.2.jar" sourcepath="sources/aparapi-jni-1.4.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/App/javadocs/aparapi-jni-1.4.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/bcel-6.4.1.jar" sourcepath="sources/bcel-6.4.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/App/javadocs/bcel-6.4.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
